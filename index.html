@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Bernice: Profile</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
@@ -14,8 +14,8 @@
 		/>
 	</head>
 	<body>
-		<app-port class="flex flex-wrap flex-col gap-10 items-stretch">
-			<nav class="flex flex-12 w-full p-2">
+		<app-port class="flex flex-wrap flex-col gap-10 items-stretch lg:px-20 sm:px-1">
+			<nav class="flex flex-12 w-full px-5">
 				<ul class="nav__left flex gap-1">
 					<li><a href="">works</a></li>
 					<li><a href="">contact</a></li>
@@ -36,23 +36,23 @@
 				</ul>
 			</nav>
 
-			<header class="p-2 w-full bg-blue-200 text-center font-2">bernice eyram alornu</header>
+			<header class="px-5 py-5 w-full bg-blue-200 text-center font-2 text-5xl shadow-lg font-thin capitalize">bernice eyram alornu</header>
 
-			<div class="[content] p-2 flex w-full justify-between mt-4 gap-10 p-10">
-				<div class="content__left content__info w-1/3 gap-5 flex flex-col">
+			<div class="[content] px-5 flex flex-wrap md:flex-nowrap w-full justify-between mt-4 gap-10 p-10">
+				<div class="content__left content__info sm:w-full md:w-1/3 gap-10 flex flex-col">
 					<div class="info info__biography">
-						<span class="info__header">biography</span>
+						<span class="info__header font-thin capitalize inline-block mb-3">biography</span>
 						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, fuga tenetur perspiciatis est minima soluta aliquid deleniti qui. Est, corporis?</p>
 					</div>
 
 					<div class="info info__contact">
-						<span class="info__header">contact</span>
+						<span class="info__header font-thin capitalize inline-block mb-3">contact</span>
 						<p>Ho, Ghana</p>
 						<a href="mailto:eyramalornu@gmail.com">eyramalornu@gmail.com</a>
 					</div>
 
 					<div class="info info__services">
-						<span class="info__header">Services</span>
+						<span class="info__header font-thin capitalize inline-block mb-3">Services</span>
 						<p>Proof reading</p>
 						<p>Academic writing</p>
 						<p>Copywriting</p>
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 
-				<div class="content__center w-1/3 facebook">
+				<div class="content__center sm:w-full md:w-1/3 facebook">
 					<img
 						class="rounded-full shadow-2xl border-8 border-gray-200"
 						src="https://i.pinimg.com/originals/03/13/ef/0313efe9021ecae6b676977e0a84f646.jpg"
@@ -68,48 +68,48 @@
 					/>
 				</div>
 
-				<div class="content__right contact__stats w-1/3 flex flex-col gap-10 text-right">
-					<div class="info info__experience">
-						<span class="info__header">years of experience</span>
+				<div class="content__right contact__stats w-full md:w-1/3 flex md:flex-col gap-20 md:text-right flex-wrap">
+					<div class="info info__experience sm:w-1/3 md:w-full">
+						<span class="info__header font-thin capitalize inline-block mb-3">years of experience</span>
 						<p>5</p>
 					</div>
 
-					<div class="info info__satisfaction">
-						<span class="info__header">clients satisfaction</span>
+					<div class="info info__satisfaction sm:w-1/3 md:w-full">
+						<span class="info__header font-thin capitalize inline-block mb-3">clients satisfaction</span>
 						<p>100%</p>
 					</div>
 
-					<div class="info info__clients_count">
-						<span class="info__header">number of clients</span>
+					<div class="info info__clients_count sm:w-1/3 md:w-full">
+						<span class="info__header font-thin capitalize inline-block mb-3">number of clients</span>
 						<p>+40</p>
 					</div>
 
-					<div class="info info__hours">
-						<span class="info__header">Hours last year</span>
+					<div class="info info__hours sm:w-1/3 md:w-full">
+						<span class="info__header font-thin capitalize inline-block mb-3">Hours last year</span>
 						<p>+700</p>
 					</div>
 				</div>
 			</div>
 
-			<footer class="feedback p-10">
-				<div class="feedback__header">customer feedback</div>
+			<footer class="feedback px-5 flex flex-col gap-5 mb-16">
+				<div class="feedback__header font-thin capitalize inline-block mb-3">customer feedback</div>
 
-				<div class="feedback__list flex">
-					<div class="feeback__item w-1/4">
-						<span class="feedback__item__header">Akua</span>
+				<div class="feedback__list flex flex-wrap md:flex-nowrap gap-x-3 gap-y-10">
+					<div class="feeback__item p-3 shadow-xl border-8 rounded-3xl sm:w-full md:w-1/4 shadow-xl">
+						<span class="feedback__item__header font-thin capitalize inline-block mb-3">Zuviel</span>
+						<p class="feedback__item__text">Eyram really took charge when I was uncertain about my requirements and she directed my thesis paper so well I got the third highest score.</p>
+					</div>
+                    <div class="feeback__item p-3 shadow-xl border-8 rounded-3xl sm:w-full md:w-1/4 shadow-xl">
+						<span class="feedback__item__header font-thin capitalize inline-block mb-3">Folake</span>
 						<p class="feedback__item__text">Eyram helped me organizing and conducting my research on evulotion of pidgeon in population of lower Nigeria and Northern Cameroon</p>
 					</div>
-                    <div class="feeback__item w-1/4">
-						<span class="feedback__item__header">Akua</span>
-						<p class="feedback__item__text">Eyram helped me organizing and conducting my research on evulotion of pidgeon in population of lower Nigeria and Northern Cameroon</p>
+                    <div class="feeback__item p-3 shadow-xl border-8 rounded-3xl sm:w-full md:w-1/4 shadow-xl">
+						<span class="feedback__item__header font-thin capitalize inline-block mb-3">Timothy</span>
+						<p class="feedback__item__text">Eyram was intrumental in helping my son pass his grade history assessment</p>
 					</div>
-                    <div class="feeback__item w-1/4">
-						<span class="feedback__item__header">Akua</span>
-						<p class="feedback__item__text">Eyram helped me organizing and conducting my research on evulotion of pidgeon in population of lower Nigeria and Northern Cameroon</p>
-					</div>
-                    <div class="feeback__item w-1/4">
-						<span class="feedback__item__header">Akua</span>
-						<p class="feedback__item__text">Eyram helped me organizing and conducting my research on evulotion of pidgeon in population of lower Nigeria and Northern Cameroon</p>
+                    <div class="feeback__item p-3 shadow-xl border-8 rounded-3xl sm:w-full md:w-1/4 shadow-xl">
+						<span class="feedback__item__header font-thin capitalize inline-block mb-3">Ernest</span>
+						<p class="feedback__item__text">Eyram is highly professional and thorough, she assisted me with copywriting services and I absolutely recommend her for all your project copywriting needs</p>
 					</div>
 				</div>
 			</footer>
@@ -121,5 +121,15 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		></script>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+
+        <style type="text/tailindcss">
+            @layer components {
+                .feedback__item__text{
+                @apply font-thin mt-3;
+            }}
+        </style>
 	</body>
 </html>
